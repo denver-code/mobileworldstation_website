@@ -11,6 +11,9 @@
     "type": "git",
     "url": "https://github.com/ivanlori/Vuemmerce.git"
   },
+  "engines": {
+  "node": "14.x"
+},
   "keywords": [
     "css",
     "js",
