@@ -19,7 +19,6 @@ import VmProductsList from '@/components/products_list/ProductsListContainer';
 import VmHero from '@/components/hero/Hero';
 
 import VmSubheader from '@/components/subheader/Subheader';
-import VmStepsHero from '@/components/steps/StepsHero';
 
 export default {
   name: 'index',

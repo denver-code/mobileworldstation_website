@@ -20,6 +20,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "@heroicons/vue": "^2.0.17",
     "@tailwindcss/forms": "^0.5.3",
     "babel-polyfill": "^6.26.0",
     "babel-runtime": "^6.26.0",
