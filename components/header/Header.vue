@@ -10,7 +10,7 @@
 
       <div class="lg:flex lg:gap-x-12 sm:gap-x-12 sm:flex">
         <a href="/store" class="text-sm font-semibold leading-6 text-gray-900">Store</a>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Contact</a>
+        <a href="/contact" class="text-sm font-semibold leading-6 text-gray-900">Contact</a>
         <a href="/about" class="text-sm font-semibold leading-6 text-gray-900">About Us</a>
       </div>
       <div class=" lg:flex lg:flex-1 lg:justify-end">
