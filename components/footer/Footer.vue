@@ -3,7 +3,7 @@
     <div class="py-16 mx-auto sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
         <div>
-        <img src="../../static/logo.png" class="mr-5 h-96 sm:h-16" alt="logo" />
+        <NuxtLink to="/"><img src="../../static/logo.png" class="mr-5 h-16 sm:h-16 " alt="logo" /></NuxtLink>
           <p class="max-w-xs mt-4 text-sm text-gray-600">
             "Upgrade your mobile experience" - At MobileWorldStation, we believe that everyone deserves the latest and greatest in mobile technology. That's why we offer a wide range of new and used phones to help you upgrade your mobile experience.
           </p>
@@ -35,10 +35,8 @@
             </p>
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
 
-              <a class="link" href="#">About</a>
-              <a class="link" href="#">Meet the Team</a>
-              <a class="link" href="#">Feedback</a>
-              <a class="link" href="#">Careers</a>
+              <NuxtLink to="/about">About</NuxtLink>
+              <NuxtLink to="/contact">Feedback</NuxtLink>
             </nav>
 
           </div>
@@ -47,9 +45,8 @@
               Services
             </p>
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-              <a class="link" href="#">Products</a>
-              <a class="link" href="#">Cart</a>
-              <a class="link" href="#">Repair</a>
+              <NuxtLink to="/store">Products</NuxtLink>
+              <NuxtLink to="/cart">Cart</NuxtLink>
             </nav>
           </div>
           <div>
@@ -57,8 +54,7 @@
               Helpful Links
             </p>
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-              <a class="link" href="#">Contact</a>
-              <a class="link" href="#">FAQs</a>
+              <NuxtLink to="/contact">Contact</NuxtLink>
 
             </nav>
           </div>
@@ -67,10 +63,8 @@
               Legal
             </p>
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-              <a class="link" href="#">Privacy Policy</a>
-              <a class="link" href="#">Terms &amp; Conditions</a>
-              <a class="link" href="#">Returns Policy</a>
-              <a class="link" href="#">Accessibility</a>
+              <NuxtLink to="/privacy">Privacy Policy</NuxtLink>
+              <NuxtLink to="/terms">Terms &amp; Conditions</NuxtLink>
             </nav>
           </div>
         </div>
@@ -96,6 +90,10 @@ export default {
 
  footer {
    margin-top: auto;
+   //bottom: 0;
+   //position: fixed;
+   //bottom: 0;
+   //width: 100%;
  }
 
 </style>

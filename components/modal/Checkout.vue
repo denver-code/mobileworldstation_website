@@ -2,11 +2,11 @@
 	<div :class="[ openModal ? 'fixed flex' : 'hidden', 'modal' ]">
 		<div class="modal-background"></div>
 		<div class="modal-wrapper">
-			<div class="bg-grey_light flex items-center justify-between rounded-t-2xl p-5">
+			<div class="bg-grey_light flex items-center justify-between  p-5">
 				<p class="text-xl">{{ modalTitle }}</p>
 				<button class="delete" aria-label="close" @click="closeModal(false)">X</button>
 			</div>
-			<section class="p-5 rounded-b-2xl">
+			<section class="p-5">
 				<div v-if="!isCheckoutSection">
 					<div class="box" v-for="product in products" :key="product.id">
 						<div>

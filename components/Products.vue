@@ -10,11 +10,12 @@
             price: product.price,
             rating: product.ratings,
             reviews: product.reviews,
-            isAddedBtn: product.isAddedBtn
+            isAddedBtn: product.isAddedBtn,
+            pictureURL: product.pictureURL
           }
         }"
       >
-        <img class="" src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+        <img class="" :src="product.pictureURL" alt="Placeholder image" width="1280px" max-height="960px" >
       </nuxt-link>
     </div>
     <div class="text-wrapper p-4">
@@ -175,9 +176,9 @@ export default {
       flex: 1;
 
       img {
-        @apply lg:rounded-none;
-        @apply lg:rounded-tl-2xl;
-        @apply lg:rounded-bl-2xl;
+        //@apply lg:rounded-none;
+        //@apply lg:rounded-tl-2xl;
+        //@apply lg:rounded-bl-2xl;
       }
     }
 

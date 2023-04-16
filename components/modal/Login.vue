@@ -2,13 +2,13 @@
   <div :class="[ openModal ? 'fixed flex' : 'hidden', 'modal' ]">
     <div class="modal-background"></div>
     <div class="modal-wrapper">
-      <div class="bg-grey_light flex items-center justify-between rounded-t-2xl p-5">
+      <div class="bg-grey_light flex items-center justify-between  p-5">
           <p v-if="!isUserLoggedIn" class="text-xl">{{ modalTitle }}</p>
           <p v-if="isUserLoggedIn" class="text-xl">{{ modalTitleLoggedIn }}</p>
           <button class="delete" aria-label="close" @click="closeModal">X</button>
       </div>
       <form @submit="checkForm" action="#" method="post">
-        <section class="p-5 rounded-b-2xl">
+        <section class="p-5 ">
           <div v-if="!isUserLoggedIn">
             <div class="m-4">
               <input
@@ -42,8 +42,8 @@
             </div>
           </div>
           <div class="m-4">
-            <button v-if="!isUserLoggedIn" type="submit" class="rounded-xl p-3 bg-blue text-white w-full">{{ loginBtnLabel }}</button>
-            <button v-if="isUserLoggedIn" type="button" class="rounded-xl p-3 bg-grey_light text-grey_dark" @click="closeModal">{{ btnLoggedInLabel }}</button>
+            <button v-if="!isUserLoggedIn" type="submit" class=" p-3 bg-blue text-white w-full">{{ loginBtnLabel }}</button>
+            <button v-if="isUserLoggedIn" type="button" class="p-3 bg-grey_light text-grey_dark" @click="closeModal">{{ btnLoggedInLabel }}</button>
           </div>
         </section>
       </form>

@@ -2,13 +2,13 @@
     <div :class="[ openModal ? 'fixed flex' : 'hidden', 'modal' ]">
       <div class="modal-background"></div>
       <div class="modal-wrapper">
-        <div class="bg-grey_light flex items-center justify-between rounded-t-2xl p-5">
+        <div class="bg-grey_light flex items-center justify-between  p-5">
           <p v-if="!isUserSignedUp" class="text-xl">{{ modalTitle }}</p>
           <p v-if="isUserSignedUp" class="text-xl">{{ modalTitleRegistered }}</p>
           <button class="delete" aria-label="close" @click="closeModal">X</button>
         </div>
         <form @submit="checkForm" action="#" method="post">
-          <section class="p-5 rounded-b-2xl">
+          <section class="p-5 ">
             <div v-if="!isUserSignedUp">
               <div class="m-4">
                 <input
@@ -62,8 +62,8 @@
             </div>
           </section>
           <div class="m-4">
-            <button v-if="!isUserSignedUp" class="rounded-xl p-3 bg-blue text-white w-full">{{ primaryBtnLabel }}</button>
-            <button v-if="isUserSignedUp" type="button" class="rounded-xl p-3 bg-grey_light text-grey_dark" @click="closeModal">{{ btnRegisteredLabel }}</button>
+            <button v-if="!isUserSignedUp" class=" p-3 bg-blue text-white w-full">{{ primaryBtnLabel }}</button>
+            <button v-if="isUserSignedUp" type="button" class=" p-3 bg-grey_light text-grey_dark" @click="closeModal">{{ btnRegisteredLabel }}</button>
           </div>
         </form>
       </div>

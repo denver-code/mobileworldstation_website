@@ -1,6 +1,5 @@
 <template>
   <div>
-    <VmHero />
     <VmSubheader />
     <VmProductsList />
   </div>
@@ -15,7 +14,6 @@ export default {
   name: 'index',
   components: {
     VmProductsList,
-    VmHero,
     VmSubheader
   }
 };

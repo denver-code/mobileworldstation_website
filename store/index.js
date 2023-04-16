@@ -2,47 +2,51 @@ export const state = () => ({
   products: [
     {
       id: 1,
-      title: 'Samsong 17 Pro Red zMax',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      price: 500,
-      ratings: 3,
-      reviews: 5,
+      title: "Samsung Galaxy S23 Ultra - 256GB SpaceBlack",
+      description: "Get the ultimate Galaxy experience with the S23 Ultra. The latest generation of mobile processing power",
+      price: 1250,
+      ratings: 4.6,
+      reviews: 2412,
       isAddedToCart: false,
       isAddedBtn: false,
       isFavourite: false,
-      quantity: 1
+      quantity: 1,
+      pictureURL: "https://images.samsung.com/uk/smartphones/galaxy-s23-ultra/images/galaxy-s23-ultra-highlights-design-end-s.jpg"
+
     },
     {
       id: 2,
-      title: 'Product 2',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      price: 35,
+      title: "iPhone 14 Pro Max - 1TB GreyScale",
+      description: "iPhone 14 Pro and iPhone 14 Pro Max feature a beautiful surgical-grade stainless steel and textured...",
+      price: 1100,
       ratings: 5,
-      reviews: 10,
+      reviews: 2404,
       isAddedToCart: false,
       isAddedBtn: false,
       isFavourite: false,
-      quantity: 1
+      quantity: 1,
+      pictureURL: "https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-hero-220907_Full-Bleed-Image.jpg.xlarge_2x.jpg"
     },
     {
       id: 3,
-      title: 'Product 3',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      price: 35,
+      title: "Xiaomi Mi 12 PRO - 256GB",
+      description: "Xiaomi 12 Pro comes with a pro-grade 50MP triple camera array, WQHD+ dynamic 120Hz display...",
+      price: 450,
       ratings: 5,
-      reviews: 10,
+      reviews: 450,
       isAddedToCart: false,
       isAddedBtn: false,
       isFavourite: false,
-      quantity: 1
+      quantity: 1,
+      pictureURL: "https://cdn.dxomark.com/wp-content/uploads/medias/post-145957/Xiaomi-Redmi-Note-12-Pro-5G-Plain_featured-image-packshot-review-1024x691.jpg"
     },
   ],
   userInfo: {
     isLoggedIn: false,
     isSignedUp: false,
     hasSearched: false,
-    name: '',
-    productTitleSearched: ''
+    name: "",
+    productTitleSearched: ""
   },
   systemInfo: {
     openLoginModal: false,

@@ -36,7 +36,6 @@ export default {
     height:100vh;
     margin:0;
   }
-
   .input {
     @apply block;
     @apply w-full;
@@ -78,7 +77,6 @@ export default {
   .modal-wrapper {
     @apply bg-white;
     @apply z-20;
-    @apply rounded-2xl;
     @apply w-96;
   }
 </style>
