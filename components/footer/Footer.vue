@@ -3,9 +3,9 @@
     <div class="py-16 mx-auto sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
         <div>
-        <img src="../../static/logo.png" class="mr-5 h-72 sm:h-10" alt="logo" />
+        <img src="../../static/logo.png" class="mr-5 h-96 sm:h-16" alt="logo" />
           <p class="max-w-xs mt-4 text-sm text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, accusantium.
+            "Upgrade your mobile experience" - At MobileWorldStation, we believe that everyone deserves the latest and greatest in mobile technology. That's why we offer a wide range of new and used phones to help you upgrade your mobile experience.
           </p>
           <div class="flex mt-8 space-x-6 text-gray-600">
             <a class="hover:opacity-75" href target="_blank" rel="noreferrer">
@@ -34,9 +34,10 @@
               Company
             </p>
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+
               <a class="link" href="#">About</a>
               <a class="link" href="#">Meet the Team</a>
-              <a class="link" href="#">History</a>
+              <a class="link" href="#">Feedback</a>
               <a class="link" href="#">Careers</a>
             </nav>
 
@@ -46,11 +47,9 @@
               Services
             </p>
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-              <a class="link" href="#">1on1 Coaching</a>
-              <a class="link" href="#">Company Review</a>
-              <a class="link" href="#">Accounts Review</a>
-              <a class="link" href="#">HR Consulting</a>
-              <a class="link" href="#">SEO Optimisation</a>
+              <a class="link" href="#">Products</a>
+              <a class="link" href="#">Cart</a>
+              <a class="link" href="#">Repair</a>
             </nav>
           </div>
           <div>
@@ -60,7 +59,7 @@
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
               <a class="link" href="#">Contact</a>
               <a class="link" href="#">FAQs</a>
-              <a class="link" href="#">Live Chat</a>
+
             </nav>
           </div>
           <div>
@@ -98,4 +97,5 @@ export default {
  footer {
    margin-top: auto;
  }
+
 </style>

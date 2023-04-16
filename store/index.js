@@ -2,9 +2,9 @@ export const state = () => ({
   products: [
     {
       id: 1,
-      title: 'Product 1',
+      title: 'Samsong 17 Pro Red zMax',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      price: 50,
+      price: 500,
       ratings: 3,
       reviews: 5,
       isAddedToCart: false,

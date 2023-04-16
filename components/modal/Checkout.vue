@@ -13,7 +13,7 @@
               <p>{{ product.title }}  {{ product.quantity > 0 ?  ` - Quantity: ${product.quantity}` : ''}}</p>
 						  <p>&pound;{{ product.price }} </p>
             </div>
-            <button class="rounded-xl p-3 text-white bg-red" @click="removeFromCart(product.id)">{{ removeLabel }}</button>
+            <button class="p-3 text-white bg-red" @click="removeFromCart(product.id)">{{ removeLabel }}</button>
 					</div>
 					<div v-if="products.length === 0">
 						<p>{{ cartEmptyLabel }}</p>
@@ -24,8 +24,8 @@
 				</div>
 			</section>
 			<div class="m-4">
-				<button v-show="products.length > 0 && !isCheckoutSection" class="rounded-xl p-3 bg-blue text-white w-full" @click="onNextBtn">{{ buyLabel }}</button>
-				<button v-if="isCheckoutSection" class="rounded-xl p-3 bg-blue text-white w-full" @click="closeModal(true)">{{ closeLabel }}</button>
+				<button v-show="products.length > 0 && !isCheckoutSection" class="p-3 bg-blue text-white w-full" @click="onNextBtn">{{ buyLabel }}</button>
+				<button v-if="isCheckoutSection" class=" p-3 bg-blue text-white w-full" @click="closeModal(true)">{{ closeLabel }}</button>
 			</div>
 		</div>
 	</div>

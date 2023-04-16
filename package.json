@@ -1,8 +1,8 @@
 {
-  "name": "vuemmerce",
+  "name": "MobileWorldStation",
   "version": "1.1.0",
-  "description": "Ecommerce template built with Vue.js and Nuxt.js",
-  "author": "ivan lori <ivan.lori@protonmail.com>",
+  "description": "MobileWorldStation Official Website",
+  "author": "Ihor Savenko <csigorek@gmail.com",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt generate"
@@ -24,6 +24,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "@tailwindcss/forms": "^0.5.3",
     "babel-polyfill": "^6.26.0",
     "babel-runtime": "^6.26.0",
     "nuxt": "^2.15.8",
