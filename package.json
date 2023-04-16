@@ -11,9 +11,6 @@
     "type": "git",
     "url": "https://github.com/ivanlori/Vuemmerce.git"
   },
-  "engines": {
-  "node": "19.x"
-},
   "keywords": [
     "css",
     "js",
@@ -30,26 +27,26 @@
     "@tailwindcss/forms": "^0.5.3",
     "babel-polyfill": "^6.26.0",
     "babel-runtime": "^6.26.0",
-    "nuxt": "^2.15.8",
-    "vue": "^2.6.14",
-    "vue-router": "^3.5.2",
-    "vuex": "^3.6.2"
+    "nuxt": "^3.4.1",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-env": "^7.21.4",
     "@nuxt/postcss8": "^1.1.3",
-    "@nuxt/types": "~2.15.0",
-    "@vue/cli-plugin-babel": "^4.5.13",
-    "@vue/cli-service": "^4.5.13",
-    "autoprefixer": "^10.4.5",
+    "@nuxt/types": "~2.16.3",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "autoprefixer": "^10.4.14",
     "babel-plugin-transform-runtime": "~6.23.0",
-    "css-loader": "^6.7.1",
-    "nuxt-purgecss": "^1.0.0",
-    "postcss": "^8.4.13",
+    "css-loader": "^6.7.3",
+    "nuxt-purgecss": "^2.0.0",
+    "postcss": "^8.4.22",
     "sass": "^1.62.0",
-    "sass-loader": "^10",
-    "tailwindcss": "^3.0.24",
-    "vue-template-compiler": "^2.6.14"
+    "sass-loader": "^13.2.2",
+    "tailwindcss": "^3.3.1",
+    "vue-template-compiler": "^2.7.14"
   },
   "eslintConfig": {
     "root": true,
