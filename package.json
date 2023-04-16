@@ -7,6 +7,9 @@
     "dev": "nuxt",
     "build": "nuxt generate"
   },
+  "engines": {
+    "node": "14.18.0"
+  },
   "keywords": [
     "css",
     "js",
