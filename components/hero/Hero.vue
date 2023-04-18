@@ -1,16 +1,4 @@
 <template>
-  <!-- <div class="p-10 lg:p-80 bg-cover bg-fixed ">
-    <h1 class="text-white text-4xl mb-5">
-      MobileWorldStation - Your best solution to buy a used or new phone.
-    </h1>
-    <h2 class="text-white text-1xl font-bold">
-      "Upgrade your mobile experience" - At MobileWorldStation, we believe that everyone deserves the latest and greatest in mobile technology. That's why we offer a wide range of new and used phones to help you upgrade your mobile experience.
-    </h2> <br>
-    <button class="bg-blue hover:bg-blue_light text-white font-bold py-3 px-4 border-b-4 border-blue_light hover:border-blue_light rounded">
-      Explore our products
-    </button>
-  </div> -->
-
   <div class="bg-white">
   <div class="relative isolate px-6 pt-14 lg:px-8">
     <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
@@ -33,12 +21,3 @@
   </div>
 </div>
 </template>
-<style lang="scss" scoped>
-// div{
-//   text-align: center;
-//   justify-content: center;
-//   background-image: url( "../../static/hero_splash.jpg");
-
-// }
-
-</style>

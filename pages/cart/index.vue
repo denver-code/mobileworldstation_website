@@ -40,7 +40,7 @@
     <div v-if="products.length === 0">
       <p>{{ cartEmptyLabel }}</p>
     </div>
-    <div v-else-if="">
+    <div v-else="">
       <button v-show="products.length > 0 && purchased === false" class="p-3 bg-blue text-white w-full" @click="onBuy">{{ buyLabel }}</button>
       <div v-if="purchased">
         <p>You bought it :-)</p>
