@@ -1,3 +1,4 @@
+<!-- Index page template with Hero widget inside -->
 <template>
   <div>
     <VmHero />
@@ -9,6 +10,7 @@ import VmProductsList from '@/components/products_list/ProductsListContainer';
 import VmHero from '@/components/hero/Hero';
 
 import VmSubheader from '@/components/subheader/Subheader';
+
 
 export default {
   name: 'index',

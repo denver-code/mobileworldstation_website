@@ -97,6 +97,7 @@ export default {
   props: ['product', 'detail'],
 
   data () {
+    // Setting all non-primary text which used for generating product card
     return {
       addToCartLabel: 'Add to cart',
       viewDetailsLabel: 'Details',
