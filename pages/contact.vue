@@ -7,7 +7,7 @@
     <div class="flex mt-8">
       <div class="w-1/2 pr-8">
         <h2 class="text-2xl font-bold mb-4">Feedback Form</h2>
-        <form>
+        <form url="/api/send_email" method="post">
           <div class="mb-4">
             <label class="block text-gray-700 font-bold mb-2" for="name">
               Name
